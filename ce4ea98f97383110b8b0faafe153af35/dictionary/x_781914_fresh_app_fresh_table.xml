@@ -4,7 +4,11 @@
         <element attributes="edge_encryption_enabled=true" label="Fresh Name" max_length="40" name="fresh_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Fresh Short Description" max_length="40" name="fresh_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Fresh State" max_length="40" name="fresh_state" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="New"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="2" value="In-Progress"/>
+                <element inactive_on_update="false" label="Done" sequence="3" value="Done"/>
+            </choice>
         </element>
         <element label="test" max_length="40" name="test" type="string"/>
     </element>
