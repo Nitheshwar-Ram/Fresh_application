@@ -56,6 +56,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test</element>
+            <position>4</position>
+            <sys_created_by>Nithesh Kannan</sys_created_by>
+            <sys_created_on>2023-08-26 09:19:28</sys_created_on>
+            <sys_id>4c21128397bc3110b8b0faafe153af08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_781914_fresh_app_fresh_table" sys_domain="global" view="Default view">41e6424f977c3110b8b0faafe153af7e</sys_ui_section>
+            <sys_updated_by>Nithesh Kannan</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:19:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

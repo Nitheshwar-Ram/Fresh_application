@@ -6,5 +6,6 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Fresh State" max_length="40" name="fresh_state" type="string">
             <choice/>
         </element>
+        <element label="test" max_length="40" name="test" type="string"/>
     </element>
 </database>
