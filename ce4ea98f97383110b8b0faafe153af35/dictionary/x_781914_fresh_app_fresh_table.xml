@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="012a71cf973c3110b8b0faafe153af5b" label="Fresh Table" max_length="40" name="x_781914_fresh_app_fresh_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Fresh Description" max_length="40" name="fresh_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fresh Name" max_length="40" name="fresh_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fresh Short Description" max_length="40" name="fresh_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fresh State" max_length="40" name="fresh_state" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
